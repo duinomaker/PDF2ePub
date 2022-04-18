@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="EPB-UUID" version="2.0">
+	<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title>PDF2ePub</dc:title>
+		<dc:creator>PDF2ePub</dc:creator>
+		<dc:subject/>
+		<dc:description/>
+		<dc:contributor/>
+		<dc:date>D:20220319123705+00&apos;00&apos;</dc:date>
+		<dc:type/>
+		<dc:format/>
+		<dc:source/>
+		<dc:relation/>
+		<dc:coverage/>
+		<dc:rights/>
+		<dc:identifier id="EPB-UUID">urn:uuid:123456</dc:identifier>
+		<dc:language>en-gb</dc:language>
+	</metadata>
+	<manifest>
+		<item id="page-00001" href="page-00001.html" media-type="application/xhtml+xml"/>
+		<item id="style" href="css/style.css" media-type="text/css"/>
+		<item id="ncx" href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="page-00001" linear="yes"/>
+	</spine>
+</package>
